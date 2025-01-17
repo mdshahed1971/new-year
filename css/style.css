@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", serif;
+}
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.banner{
+   margin-top: 50px;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/img/Rectangle\ 14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.b-content h4{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+.b-content h2{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 800;
+}
+/* holiday start */
+.holiday{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.holiday-img{
+    width: 100%;
+}
+.holiday-img img{
+    width: 45%;
+}
+.holiday-content h1{
+    color: #F00;
+font-size: 45px;
+font-weight: 700;
+}
+.holiday-content p{
+    color: #F00;
+font-size: 16px;
+font-weight: 500;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+.holiday-content h2{
+    color: #070211;
+font-size: 27px;
+font-weight: 700;
+margin-bottom: 40px;
+}
+/* holiday end */
+/* party start */
+.party{
+    height: 600px;
+    margin-bottom: 100px;
+    background-image: url(/img/Vector\ \(1\).png);
+    display: flex;
+    justify-content: space-around;
+}
+.p-content h2{
+    color: #FFF;
+font-size: 45px;
+font-weight: 700;
+}
+.p-content p{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+}
+.p-content a{
+    text-decoration: none;
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+}
+/* party end */
+  /* night start */
+.night{
+    text-align: center;
+    margin-bottom: 80px;
+    background-color: rgba(255, 0, 0, 0.10) ;
+    padding: 80px;
+}
+.night h4 span{
+    color: #F00;
+font-size: 22px;
+font-weight: 600;
+}
+.night h4{
+    color: #070211;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.b-btn{
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+color: #FFF;
+background-color: #F00;
+font-size: 20px;
+font-weight: 700px !important;
+}
+/* night end */
+/* offer start */
+.offer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.offer-img{
+    width: 30%;
+}
+.offer-img img{
+    width: 90%;
+}
+.offer-content h4{
+    color: #F00;
+font-size: 19px;
+font-weight: 500;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+.offer-content h3{
+    color: #070211;
+font-size: 32px;
+font-weight: 800;
+
+margin-bottom: 10px;}
+.offer-content p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 18px;
+font-weight: 400;
+}
+.happy-content h2{
+    color: #F00;
+font-size: 32px;
+font-weight: 700;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+.happy-content p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 18px;
+font-weight: 400;
+}
+/* offer end */
+/* functional start */
+.functional{
+    margin-bottom: 100px;
+}
+.f-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.f-content h5{
+    color: #070211;
+font-size: 18px;
+font-weight: 500;
+}
+.f-content h2{
+    color: #070211;
+font-size: 40px;
+font-weight: 800;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.f-content span{
+    color: #F00;
+font-size: 40px;
+font-weight: 800;
+}
+.f-content p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+.f-img{
+    width: 100%;
+}
+.f-img img{
+width: 100%;
+}
+/* functional end */
+/* gifts start */
+.gifts{
+    margin-bottom: 100px;
+}
+.g-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.g-content{
+    padding-left: 10px;
+}
+.g-content h5{
+    color: #F00;
+font-size: 20px;
+font-weight: 500;
+}
+.g-content h3{
+    color: #070211;
+font-size: 32px;
+font-weight: 700;
+text-transform: capitalize;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.g-content p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 35px;
+}
+/* gifts end */
+.newsletter{
+    text-align: center;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+padding: 80px;
+margin-bottom: 100px;
+}
+.newsletter h2{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.newsletter p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+}
+
+.hide{
+    display: none;
+}

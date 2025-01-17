@@ -1,35 +1,183 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-   
+    /* holiday start */
+    .holiday{
+        margin-top: 65px;
+     }
+     .holiday-img img{
+      width: 75%;
+     }
+    .holiday-content h1{
+        font-size: 35px;
+    }
+    .holiday-content h2{
+        font-size: 24px;
+    margin-bottom: 28px;
+    }
+  .holiday-content p{
+    margin-top: 26px;
+    font-size: 14px;
+  }
+  /* holiday end */
+  .banner{
+    height: 160px;
+    margin-top: 20px;
+  }
+  .b-content h4{
+    font-size: 20px;
+  }
+  .b-content h2{
+    font-size: 25px;
+  }
+  main{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .g-img img{
+    width: 100%;
+  }
+  .g-content h5{
+    font-size: 16px;
+  }
+  .g-content h3{
+    font-size: 28px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+  }
+  .g-content p{
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .functional{
+    margin-bottom: 70px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
-
-  
-  
+    /* holiday start */
+     .holiday{
+        margin-top: 65px;
+     }
+     .holiday-img img{
+      width: 70%;
+     }
+    .holiday-content h1{
+        font-size: 38px;
+    }
+    .holiday-content h2{
+        font-size: 24px;
+    margin-bottom: 28px;
+    }
+  .holiday-content p{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  /* holiday end */
+  .banner{
+    height: 270px;
+  }
+  .b-content h4{
+    font-size: 20px;
+  }
+  .b-content h2{
+    font-size: 32px;
+  }
+  main{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .g-img img{
+    width: 100%;
+  }
+  .g-content h5{
+    font-size: 16px;
+  }
+  .g-content h3{
+    font-size: 28px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+  }
+  .g-content p{
+    font-size: 14px;
+  }
+  .functional{
+    margin-bottom: 70px;
+  }
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
-
-
-
-
-  
+    /* holiday start */
+    .holiday{
+        margin-top: 70px;
+    }
+    .holiday-content h1{
+        font-size: 42px;
+    }
+    .holiday-content p{
+        margin-top: 34px;
+    }
+    .holiday-content h2{
+        font-size: 26px;
+        margin-bottom: 32px;
+    }
+    .holiday-img img{
+        width: 65%;
+    }
+ 
+    /* holiday end */
+    .banner{
+        height: 380px;
+    }
+    .b-content h4{
+        font-size: 25px;
+    }
+    .b-content h2{
+        font-size: 35px;
+    }
+    main{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .g-img img{
+      width: 100%;
+    }
+    .g-content h5{
+      font-size: 18px;
+    }
+    .g-content h3{
+      font-size: 30px;
+    }
+    .g-content p{
+      font-size: 15px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+    .banner{
+        height: 500px;
+    }
+    main{
+        max-width: 980px;
+        margin: 0 auto;
+    }
+    .g-img img{
+      width: 100%;
+    }
   
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px){
-  
+  main{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .g-img img{
+    width: 100%;
+  }
 }
  /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
