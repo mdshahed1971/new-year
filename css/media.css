@@ -104,6 +104,12 @@
   .functional{
     margin-bottom: 70px;
   }
+  .party{
+  height: 20px;
+  }
+  .p-content h2{
+    font-size: 26px;
+  }
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -111,6 +117,7 @@
     /* holiday start */
     .holiday{
         margin-top: 70px;
+        margin-bottom: 64px;
     }
     .holiday-content h1{
         font-size: 42px;
@@ -125,8 +132,8 @@
     .holiday-img img{
         width: 65%;
     }
- 
     /* holiday end */
+    /* banner start */
     .banner{
         height: 380px;
     }
@@ -136,10 +143,12 @@
     .b-content h2{
         font-size: 35px;
     }
+    /* banner end */
     main{
         max-width: 700px;
         margin: 0 auto;
     }
+    /* gifts start */
     .g-img img{
       width: 100%;
     }
@@ -152,13 +161,27 @@
     .g-content p{
       font-size: 15px;
     }
+    /* gifts end */
+    .party{
+      height: 105px;
+    }
+    .p-content h2{
+      font-size: 36px;
+    }
+    .p-content p{
+      font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner start */
     .banner{
         height: 500px;
     }
+    /* banner end */
     main{
         max-width: 980px;
         margin: 0 auto;
@@ -166,7 +189,19 @@
     .g-img img{
       width: 100%;
     }
-  
+    /* party start */
+    .party{
+      height: 255px;
+    }
+    .p-content h2{
+      font-size: 41px;
+    }
+    .p-content p{
+      font-size: 19px;
+      margin-top: 18px;
+    margin-bottom: 26px;
+    }
+  /* party end */
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
